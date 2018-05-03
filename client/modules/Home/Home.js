@@ -4,14 +4,14 @@ import { Link } from 'react-router';
 import { bindActionCreators } from 'redux';
 
 class Home extends Component {
-  render() {
-    return (
-      <div>
-        <h2>Hello World!</h2>
-        <Link to="/" >Click here to see the posts</Link>
-      </div>
-    )
-  }
+	render() {
+		return (
+			<div>
+				<h2>Hello World!</h2>
+				<Link to="/" >Click here to see the posts</Link>
+			</div>
+		)
+	}
 };
 
 export default Home;
