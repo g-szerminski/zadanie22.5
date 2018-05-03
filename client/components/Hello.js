@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
 
 function Hello(props, context) {
-  return (
-  );
+	return (
+	);
 }
 
 Hello.propTypes = {
