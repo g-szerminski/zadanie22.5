@@ -27,11 +27,9 @@ const AppReducer = (state = initialState, action) => {
 
 /* Selectors */
 
-
 // Get showAddPost
 export const getShowAddPost = state => state.app.showAddPost;
 export const getShowEditPost = state => state.app.showEditPost;
 
 // Export Reducer
 export default AppReducer;
-
